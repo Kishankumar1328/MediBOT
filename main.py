@@ -18,7 +18,7 @@ class AdvancedMedicalChatbot:
 
     def load_data(self):
         try:
-            json_path = r"C:\Users\ADMIN\PycharmProjects\medicare\csvjson.json"
+            json_path = r"csvjson.json"
 
             with open(json_path, 'r', encoding='utf-8') as file:
                 data = json.load(file)
